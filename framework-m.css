@@ -1,0 +1,11 @@
+@charset "utf-8";
+/* CSS Document */
+body { font-size: 165% !important;}
+[class*="container"]>* { width: 100% !important; margin-left: 0 !important; float: none !important; }
+[class*="container"]>*:first-child~* { margin-top: 20px;}
+[class*="_ch-c12x"][class*="container"]>*:first-child { margin-bottom: 0px;}
+
+[class*="_ch-fg"]>li figure { position: static !important;  width: 100% !important; }
+[class*="_ch-fg"]>li figure img { }
+[class~="thmb-list"][class*="size-w"][class*="_ch-fg-l"]>li>div { padding-left: 0px;}
+[class~="thmb-list"][class*="size-w"][class*="_ch-fg-r"]>li>div { padding-right: 0px;}
